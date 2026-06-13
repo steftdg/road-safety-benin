@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import dash
+import os
 from dash import dcc, html, Input, Output
 import plotly.graph_objects as go
 import plotly.express as px
@@ -245,4 +246,4 @@ def graph_line(selected):
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8050)), debug=False)
