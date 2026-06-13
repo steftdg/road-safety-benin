@@ -106,13 +106,13 @@ app.layout = html.Div(style={"padding": "24px 32px", "maxWidth": "1400px", "marg
     html.Div([
         html.Div([
             html.Div([
-                html.Span("Sécurite Routière", style={"color": WHITE, "fontWeight": "800", "fontSize": "1.5rem"}),
-                html.Span(" | Bénin 2010-2022", style={"color": MUTED, "fontWeight": "400", "fontSize": "1.5rem"}),
+                html.Span("Securite Routiere", style={"color": WHITE, "fontWeight": "800", "fontSize": "1.5rem"}),
+                html.Span(" | Benin 2010-2022", style={"color": MUTED, "fontWeight": "400", "fontSize": "1.5rem"}),
             ]),
-            html.P("Analyse des accidents et victimes  Centre National de Sécurite Routière (CNSR)",
+            html.P("Analyse des accidents et victimes  Centre National de Securite Routiere (CNSR)",
                    style={"color": MUTED, "fontSize": "0.8rem", "marginTop": "4px"}),
         ]),
-        html.Div("Données : CNSR via Open Data Benin",
+        html.Div("Donnees : CNSR via Open Data Benin",
                  style={"color": MUTED, "fontSize": "0.72rem", "alignSelf": "center",
                         "background": CARD, "padding": "6px 12px", "borderRadius": "6px",
                         "border": f"1px solid {BORDER}"}),
